@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { useTheme } from "../context/ThemeContext";
+
 
 export default function Footer() {
-  const { theme } = useTheme();
+  
 
   const socials = [
     { href: "https://github.com/DikshaTimilsina", icon: <FaGithub />, label: "GitHub" },

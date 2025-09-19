@@ -5,7 +5,7 @@ import React from "react";
 import AnimatedSubtitle from "./AnimatedSubtitle";
 import { useTheme } from "../context/ThemeContext";
 import Link from "next/link";
-import { motion } from "framer-motion";
+
 
 const Hero = () => {
   const { theme } = useTheme();
